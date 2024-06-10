@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-    baseURL: 'http://almacenadoras.vercel.app/almacenadora/v1',
+    baseURL: 'https://almacenadoras.vercel.app/almacenadora/v1',
     timeout: 1000
 })
 
